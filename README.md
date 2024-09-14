@@ -1,2 +1,0 @@
-# UniversoCultural
-TCC - Universo Cultural
