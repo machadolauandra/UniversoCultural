@@ -10,8 +10,10 @@
         </div>
         <nav class="nav">
           <button class="nav-button">
+            <nuxt-link to="/Carrinho" class="nav-button">
             <img src="carrinho.png" alt="Carrinho" class="nav-icon" />
             <span class="nav-text">Carrinho</span>
+            </nuxt-link>
           </button>
           <button class="nav-button">
             <img src="/favorite.png" alt="Favoritos" class="nav-icon" />
@@ -33,7 +35,7 @@
           <input type="password" v-model="password" placeholder="Senha" class="input-field" required />
           <button type="submit" class="login-button">Entrar</button>
           <p class="login-footer">
-            Não tem uma conta? <router-link to="/register" class="register-link">Cadastre-se</router-link>
+            Não tem uma conta? <router-link to="/Cadastro" class="register-link">Cadastre-se</router-link>
           </p>
         </form>
       </div>
