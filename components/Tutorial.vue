@@ -144,8 +144,8 @@
 }
 
 .search-container {
-  flex: 1; /* Faz com que o container da barra de pesquisa ocupe o espaço disponível entre o logo e a navegação */
-  margin: 0 10rem; /* Adiciona espaço entre a barra de pesquisa e os botões de navegação */
+  flex: 1; 
+  margin: 0 10rem;
 }
 
 .search-input {
@@ -180,31 +180,31 @@
 .nav-text {
   color: white;
   text-align: center;
-  font-size: 0.875rem; /* Ajuste o tamanho da fonte conforme necessário */
+  font-size: 0.875rem; 
 }
 
 .nav-button:hover .nav-text {
-  text-decoration: underline; /* Adiciona sublinhado ao texto no hover */
+  text-decoration: underline; 
 }
 
 .content {
-  padding-top: 80px; /* Espaço suficiente para empurrar o conteúdo abaixo do menu */
+  padding-top: 80px;
 }
 
 .squares-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 1rem; /* Espaçamento entre os quadrados */
-  padding: 1rem; /* Adiciona padding ao redor dos quadrados */
+  gap: 1rem;
+  padding: 1rem; 
 }
 
 .square {
-  background-color: #f0f0f0; /* Fundo cinza */
-  border-radius: 8px; /* Arredonda os cantos */
+  background-color: #f0f0f0; 
+  border-radius: 8px; 
   padding: 1rem;
-  width: calc(25% - 1rem); /* Largura dos quadrados, 25% do contêiner menos a margem */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para os quadrados */
+  width: calc(25% - 1rem); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -213,27 +213,26 @@
 .square-image {
   width: 100%;
   height: auto;
-  max-width: 150px; /* Limita o tamanho máximo da imagem */
+  max-width: 150px; 
 }
-
 .square-text {
   margin: 1rem 0;
-  text-align: center; /* Centraliza o texto */
+  text-align: center; 
 }
 
 .square-buttons {
   display: flex;
-  gap: 0.5rem; /* Espaçamento entre os botões */
+  gap: 0.5rem; 
 }
 
 .carrinho-favorite {
   display: flex;
-  align-items: center; /* Alinha verticalmente os botões e o ícone */
+  align-items: center; 
 }
 
 .favorite-icon {
-  height: 24px; /* Ajusta a altura do ícone de favorito */
+  height: 24px; 
   width: auto;
-  margin-left: 0.5rem; /* Espaço entre o botão de carrinho e o ícone de favorito */
+  margin-left: 0.5rem; 
 }
 </style>
